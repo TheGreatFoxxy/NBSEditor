@@ -20,7 +20,7 @@ export default {
   },
   computed: {
     title() {
-      return this.song.name || "Unnamed Song";
+      return this.song.name || "Song Info Unavailable";
     },
   }
 }
