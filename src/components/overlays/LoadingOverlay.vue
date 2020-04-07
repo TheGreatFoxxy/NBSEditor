@@ -1,5 +1,5 @@
 <template>
   <div>
-    <b>Loading...</b>
+    <b>Loading song file...</b>
   </div>
 </template>
