@@ -382,54 +382,63 @@ Instrument.builtin = [
     10,
     require("./assets/instruments/audio/iron_xylophone.ogg"),
     require("./assets/instruments/textures/iron_xylophone.png"),
+    false
   ),
   new Instrument(
     "Cow Bell",
     11,
     require("./assets/instruments/audio/cow_bell.ogg"),
     require("./assets/instruments/textures/cow_bell.png"),
+    false
   ),
   new Instrument(
     "Didgeridoo",
     12,
     require("./assets/instruments/audio/didgeridoo.ogg"),
     require("./assets/instruments/textures/didgeridoo.png"),
+    false
   ),
   new Instrument(
     "Bit",
     13,
     require("./assets/instruments/audio/bit.ogg"),
     require("./assets/instruments/textures/bit.png"),
+    false
   ),
   new Instrument(
     "Banjo",
     14,
     require("./assets/instruments/audio/banjo.ogg"),
     require("./assets/instruments/textures/banjo.png"),
+    false
   ),
   new Instrument(
     "Pling",
     15,
     require("./assets/instruments/audio/pling.ogg"),
     require("./assets/instruments/textures/pling.png"),
+    false
   ),
   new Instrument(
     "XP Orb",
     16,
     require("./assets/instruments/audio/entity.experience_orb.pickup.ogg"),
     require("./assets/instruments/textures/xp_orb.png"),
+    false
   ),
   new Instrument(
     "Portal",
     17,
     require("./assets/instruments/audio/block.portal.trigger.ogg"),
     require("./assets/instruments/textures/portal.png"),
+    false
   ),
   new Instrument(
     "Firework Blast",
     18,
     require("./assets/instruments/audio/entity.firework.blast_far.ogg"),
     require("./assets/instruments/textures/firework_blast.png"),
+    false
   ),
 ];
 
@@ -657,8 +666,7 @@ Song.toArrayBuffer = function songToArrayBuffer(song) {
       writeByte(Math.floor(layer.volume * 100)); // we store volume as 0-1 but it the format needs 0-100
     }
 
-    // Part 4 - Custom Instruments.
-    // Since custom instruments are not supported, we use just 0 custom instruments.
+    // Part 4 - Custom Instruments
     writeByte(0);
   }
 
