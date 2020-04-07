@@ -10,7 +10,7 @@
     <div class="actions section">
       <div class="load-song button flex flex-row flex-center">
         <font-awesome-icon icon="folder-open" fixed-width size="2x"></font-awesome-icon>
-        <div class="button-body">Load a song</div>
+        <div class="button-body">Load a song file (.nbs)</div>
         <input class="file-input" type="file" accept=".nbs" @change="inputFile">
       </div>
       <div class="new-song button flex flex-row flex-center" @click="newSong">
