@@ -667,6 +667,7 @@ Song.toArrayBuffer = function songToArrayBuffer(song) {
     }
 
     // Part 4 - Custom Instruments
+    // TODO: Add Custom Instrument support
     writeByte(0);
   }
 
