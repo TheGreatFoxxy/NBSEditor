@@ -1,7 +1,7 @@
 # NBSplayer
 
 ![Minecraft Note block image]
-(/assets/minecraftnoteblock.png)
+(src/assets/minecraftnoteblock.png)
 Format: ![Minecraft Note Block Image](https://gamepedia.cursecdn.com/minecraft_gamepedia/9/9b/Note_Block.png)
 
 
