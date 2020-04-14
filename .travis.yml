@@ -10,7 +10,7 @@ branches:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: 8b2128f09f768a7b6f2880705c2601d603278a88
+  github-token: $GITHUB_TOKEN
   keep-history: true
   local-dir: dist
   on:
