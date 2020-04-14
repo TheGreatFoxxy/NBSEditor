@@ -21,7 +21,7 @@ const VANILLA_FRIENDLY_TEMPOS = [
 
 export default {
   props: {
-    song: NBS.MySong,
+    song: NBS.song,
   },
 
   computed: {
