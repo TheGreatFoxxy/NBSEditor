@@ -1,3 +1,5 @@
 module.exports = {
-  baseUrl: "./nbsplayer/",
-};
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/nbsplayer/'
+    : '/'
+}
