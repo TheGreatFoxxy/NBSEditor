@@ -4,8 +4,8 @@ node_js:
 
 cache: npm
 
-script: npm run build
-npm update caniuse-lite browserlist
+script: npm update caniuse-lite browserlist
+npm run build
 
 deploy:
  provider: pages
