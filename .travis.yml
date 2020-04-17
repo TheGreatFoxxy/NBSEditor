@@ -6,6 +6,7 @@ cache:
   - node_modules
 script:
   - npm update caniuse-lite browserslist
+  - npm update
   - npm run build
   
 deploy:
