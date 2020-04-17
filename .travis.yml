@@ -1,16 +1,17 @@
 language: node_js
 node_js:
- - "node"
-
-cache: npm
-
-script: npm update caniuse-lite browserlist
-npm run build
-
+  - "stable"
+cache:
+  directories:
+  - node_modules
+script:
+  - npm update caniuse-lite browserslist
+  - npm run build
+  
 deploy:
- provider: pages
- cleanup: true
- github_token: $GITHUB_TOKEN
- local_dir: dist
- on:
-   branch: master
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  local_dir: build
+  on:
+    branch: master
