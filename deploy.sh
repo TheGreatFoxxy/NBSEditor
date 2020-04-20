@@ -10,7 +10,7 @@ npm run build
 cd public
 
 # if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+echo 'www.nbsplayer.io' > CNAME
 
 git init
 git add -A
