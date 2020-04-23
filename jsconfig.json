@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "publicPath": "./nbsplayer",
     "paths": {
       "@/*": ["./src/*"],
     }
