@@ -433,13 +433,6 @@ Instrument.builtin = [
     require("./assets/instruments/textures/portal.png"),
     false
   ),
-  new Instrument(
-    "Firework Blast",
-    18,
-    require("./assets/instruments/audio/entity.firework.blast_far.ogg"),
-    require("./assets/instruments/textures/firework_blast.png"),
-    false
-  ),
 ];
 
 /**
