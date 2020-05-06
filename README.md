@@ -1,4 +1,4 @@
-# NBSplayer
+# NBSEditor
 
  ![Minecraft Note Block Image](https://gamepedia.cursecdn.com/minecraft_gamepedia/9/9b/Note_Block.png)
 
