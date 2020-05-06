@@ -660,8 +660,11 @@ Song.toArrayBuffer = function songToArrayBuffer(song) {
     }
 
     // Part 4 - Custom Instruments
-    // TODO: Add Custom Instrument support
-    writeByte(0);
+    // TODO: Add better Custom Instrument support
+    writeByte(3);
+    writeString(instrument.name);
+    writeByte(45);
+    writeByte(1);
   }
 
   // In the first pass all the writing operations just accumlate to the bufferSize.
