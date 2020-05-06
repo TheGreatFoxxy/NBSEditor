@@ -419,20 +419,6 @@ Instrument.builtin = [
     require("./assets/instruments/textures/pling.png"),
     false
   ),
-  new Instrument(
-    "XP Orb",
-    16,
-    require("./assets/instruments/audio/entity.experience_orb.pickup.ogg"),
-    require("./assets/instruments/textures/xp_orb.png"),
-    false
-  ),
-  new Instrument(
-    "Portal",
-    17,
-    require("./assets/instruments/audio/block.portal.trigger.ogg"),
-    require("./assets/instruments/textures/portal.png"),
-    false
-  ),
 ];
 
 /**
@@ -661,10 +647,15 @@ Song.toArrayBuffer = function songToArrayBuffer(song) {
 
     // Part 4 - Custom Instruments
     // TODO: Add better Custom Instrument support
-    writeByte(3);
-    writeString(instrument.name);
-    writeByte(45);
-    writeByte(1);
+    writeByte(2);
+     writeString(Portal);
+     writeString(portal.ogg);
+     writeByte(45);
+     writeByte(1);
+     writeString(XP orb);
+     writeString(xporb.ogg);
+     writeByte(45);
+     writeByte(1);
   }
 
   // In the first pass all the writing operations just accumlate to the bufferSize.
