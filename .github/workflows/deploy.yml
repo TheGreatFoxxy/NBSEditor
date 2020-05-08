@@ -19,6 +19,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+     - name: Install Dependecies
+       run: npm install
+     
+     - name: Run Build Script
+       run: npm run build
+     
      - name: Deploy to GitHub Pages
        uses: JamesIves/github-pages-deploy-action@3.4.9
        with:
