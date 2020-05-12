@@ -20,7 +20,7 @@ NBSplayer can load your ``` .nbs ``` Minecraft Note Block Songs, edit them, and 
 ### Cloning
 
 ```bash
-git clone https://github.com/GarboMuffin/nbsplayer
+git clone https://github.com/pressstartgaming/NBSEditor
 ```
 
 ### Installing dependencies
