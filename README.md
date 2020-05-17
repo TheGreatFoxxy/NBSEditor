@@ -6,9 +6,11 @@
 
 [Minecraft Note Block Studio](https://www.stuffbydavid.com/mcnbs) as a website.
 
-nbsplayer is a Vue app using vue-cli. The entry point is src/main.js.
+NBSEditor is a Vue app using vue-cli. The entry point is src/main.js.
 
-NBSplayer can load your ``` .nbs ``` Minecraft Note Block Songs, edit them, and save the updated song files back to your PC. songs can (*for now - Three new instruments are in the works*) only have the default instruments. Any custom instruments are (*for now*) not supported. However, there is no error message that shows when a ``` .nbs ``` file that has custom intruments, or instruments not supported by NBSplayer. I am working on that error layover.
+NBSEditor has a MIT License. For info, read LICENSE.md
+
+NBSEditor can load your ``` .nbs ``` Minecraft Note Block Songs, edit them, and save the updated song files back to your PC. songs can (*for now - Three new instruments are in the works*) only have the default instruments. Any custom instruments are (*for now*) not supported. However, there is no error message that shows when a ``` .nbs ``` file that has custom intruments, or instruments not supported by NBSEditor.
 
 ## Controls
  
