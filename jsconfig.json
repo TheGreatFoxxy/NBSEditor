@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "publicPath": "./nbsplayer",
+    "publicPath": "./NBSEditor",
     "paths": {
       "@/*": ["./src/*"],
     }
