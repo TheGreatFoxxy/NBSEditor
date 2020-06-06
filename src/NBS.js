@@ -652,8 +652,8 @@ Song.toArrayBuffer = function songToArrayBuffer(song) {
      writeString(portal.ogg);
      writeByte(45);
      writeByte(1);
-     writeString(XP orb);
-     writeString(xporb.ogg);
+     writeString(XP-orb);
+     writeString(entity.experience_orb.pickup.ogg);
      writeByte(45);
      writeByte(1);
   }
