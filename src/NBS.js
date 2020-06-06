@@ -1,4 +1,5 @@
 import { WebAudioNotePlayer } from "./audio";
+import { Song } as ".nbs";
 
 /**
  * NBS.js: JavaScript implementation of parsing, saving, and abstracting .nbs files.
