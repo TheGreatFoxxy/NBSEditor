@@ -10,7 +10,7 @@ NBSEditor is a Vue app using vue-cli. The entry point is src/main.js.
 
 NBSEditor has a MIT License. For info, read LICENSE.md
 
-NBSEditor can load your ``` .nbs ``` Minecraft Note Block Songs, edit them, and save the updated song files back to your PC. songs can (*for now - Three new instruments are in the works*) only have the default instruments. Any custom instruments are (*for now*) not supported. However, there is no error message that shows when a ``` .nbs ``` file that has custom intruments, or instruments not supported by NBSEditor.
+NBSEditor can load your ``` .nbs ``` Minecraft Note Block Songs, edit them, and save the updated song files back to your PC. songs can only have the default instruments. Any custom instruments are not supported. Be sure there is no error message that shows when a ``` .nbs ``` file that has custom intruments, or instruments not supported by NBSEditor.
 
 ## Controls
  
@@ -28,20 +28,20 @@ git clone https://github.com/pressstartgaming/NBSEditor
 ### Installing dependencies
 
 ```bash
-# Install dependencies
+# Install dependencies - Requires installed Node.js, and a network connection
 npm install
 ```
 
 ### Compile for development
 
 ```bash
-# Starts a development server with live reloads and debugging features enabled.
+# Starts a development server with live reloads and debugging features enabled. Requires network connection, and Dependencies installed (npm install).
 npm run serve
 ```
 
 ### Compile for production
 
 ```bash
-# Creates a minimized build for production. You generally do not need to do this -- the source is automatically compiled and deployed when a commit is made to master.
+# Creates a minimized build for production. Requires installed Node.js, and dependencies installed (npm install).
 npm run build
 ```
