@@ -726,4 +726,5 @@ Song.new = function newSong() {
   const song = new Song();
   song.addLayer();
   return song;
+  export class song;
 };
