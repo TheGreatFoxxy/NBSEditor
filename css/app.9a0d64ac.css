@@ -203,8 +203,7 @@ p[data-v-f4849b4a]{
                                 .button-image[data-v-372f748e]{
                                     width:100%;height:100%
                                 }
-.volume[data-v-372f748e]
-   :hover{
+.volume[data-v-372f748e]:hover{
      width:auto
 }
 .volume input[name=volume][data-v-372f748e]{
@@ -216,13 +215,10 @@ p[data-v-f4849b4a]{
 .volume img[data-v-372f748e]{
   width:auto
 }
-.volume[data-v-372f748e] 
-:not(img){
+.volume[data-v-372f748e]:not(img){
   display:none
 }
-.volume[data-v-372f748e]
-:hover 
-:not(img){
+.volume[data-v-372f748e]:hover:not(img){
   display:initial
 }
 .open[data-v-372f748e]{
