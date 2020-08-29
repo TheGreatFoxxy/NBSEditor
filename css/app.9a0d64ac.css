@@ -216,11 +216,6 @@ p[data-v-f4849b4a]{
 .volume img[data-v-372f748e]{
   width:auto
 }
-.volume[data-v-372f748e]:not(img){
-}
-.volume[data-v-372f748e]:hover:not(img){
-  display:initial
-}
 .open[data-v-372f748e]{
   position:relative
 }
