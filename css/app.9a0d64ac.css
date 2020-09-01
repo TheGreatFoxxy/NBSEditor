@@ -55,10 +55,10 @@ input[name=name][data-v-70e6c380]{
 .tempo-container[data-v-f07f5182]{
   border:1px solid #000;
   cursor:text
-  background-color: green;
+  background-color:#32cd32
 }
 .tempo-container[data-v-f07f5182]:not([vanilla-friendly]){
-    background-color:#ffd5d5
+  background-color:#ffd5d5
 }
 input[name=tempo][data-v-f07f5182]{
   width:35px;
