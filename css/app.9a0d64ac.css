@@ -353,8 +353,7 @@ a:hover{
   grid-template-rows:auto;
   grid-template-columns:200px auto;
   overflow-y:auto;
-  background-image:url(../img/bgimg.jpeg)
-  background-attachment:local;
+  background-image:url(../../img/bgimg.jpeg)
   border-top:1px solid #777;
   border-bottom:1px solid #777
 }
