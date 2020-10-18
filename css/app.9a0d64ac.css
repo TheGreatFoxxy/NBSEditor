@@ -58,7 +58,7 @@ input[name=name][data-v-70e6c380]{
   background-color:#32cd32;
 }
 .tempo-container[data-v-f07f5182]:not([vanilla-friendly]){
-  background-color:#ffd5d5
+  background-color:#ffoooo;
 }
 input[name=tempo][data-v-f07f5182]{
   width:35px;
@@ -123,8 +123,8 @@ p[data-v-f4849b4a]{
         border:1px solid #777
 }
 .button[data-v-f4849b4a]:active{
-     background-image:-webkit-gradient(linear,left top,left bottom,from(#dfdfdf),to(#cdcdcd));
-     background-image:linear-gradient(#dfdfdf,#cdcdcd)
+     background-image:-webkit-gradient(linear,left top,left bottom,from(#27db27),to(#37db37));
+     background-image:linear-gradient(#27db27,#37db37)
 }
 .button-body[data-v-f4849b4a]{
   padding-left:5px
