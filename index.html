@@ -30,8 +30,16 @@
       <center>
         <button class="button-body"><a href="https://github.com/TheGreatFoxxy/NBSEditor">Contribute on Github :D</a></button>
         <button class="button-body"><a href="https://github.com/TheGreatFoxxy/NBSEditor/issues">Something go wrong? Report it here!</a></button>
-        <button class-"button-body" onclick="ja/auxillary:reloadPageFunction()">Update/Reload App</button>
-        <script src="js/auxillary.js"></script>
+        <button class-"button-body" onclick="reloadPageFunction()">Update/Reload App</button>
+        <script>
+        function reloadPageFunction() { 
+          if(
+            confirm("You are about to update/refresh the page. Be sure to save, as you will lose any progress you have made!")
+          ){ 
+            location.reload(); 
+          }
+        },
+        </script>
       </center>
     </body>
 </html>
