@@ -1,6 +1,6 @@
 # NBSEditor
 
- ![Minecraft Note Block Image](https://gamepedia.cursecdn.com/minecraft_gamepedia/9/9b/Note_Block.png)
+![Minecraft Note Block Image](https://static.wikia.nocookie.net/minecraft/images/9/9b/Note_Block.png/revision/latest?cb=20190921170620)
 
 
 
@@ -17,31 +17,33 @@ NBSEditor can load your ``` .nbs ``` Minecraft Note Block Songs, edit them, and 
  add block : ``` left click ```
  delete block : ``` right click ```
  scroll left/right : ``` click then drag the scroll bar at bottom ```
+ 
 ## Project Setup
 
 ### Cloning
 
-```bash
-git clone https://github.com/pressstartgaming/NBSEditor
+```git
+# Clone the repository
+git clone https://github.com/TheGreatFoxxy/NBSEditor.git
 ```
 
 ### Installing dependencies
 
 ```bash
-# Install dependencies - Requires installed Node.js, and a network connection
-npm install
+# Install dependencies - You MUST run this first!!!
+$ npm install
 ```
 
 ### Compile for development
 
 ```bash
-# Starts a development server with live reloads and debugging features enabled. Requires network connection, and Dependencies installed (npm install).
-npm run serve
+# Starts a development server with live reloads and debugging features enabled. Requires Dependencies installed ($ npm install).
+$ npm run serve
 ```
 
 ### Compile for production
 
 ```bash
-# Creates a minimized build for production. Requires installed Node.js, and dependencies installed (npm install).
-npm run build
+# Creates a minimized build for production. Requires dependencies installed (npm install).
+$ npm run build
 ```
