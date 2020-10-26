@@ -5,7 +5,7 @@ cache:
   directories:
   - node_modules
 script:
-  - npm update caniuse-lite browserslist
+  - npm audit fix --force
   - npm run build
 deploy:
   provider: pages
