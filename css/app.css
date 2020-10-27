@@ -195,10 +195,15 @@ p[data-v-f4849b4a]{
 .button[value=true][data-v-372f748e]{
   background-image:-webkit-gradient(linear,left top,left bottom,from(#eee),to(#ccc));
   background-image:linear-gradient(#eee,#ccc);
-  background-color:#228b22
+  background-color:#20ba20
+}
+.button[value=false][data-v-372f748e]{
+  background-image:-webkit-gradient(linear,left top,left bottom,from(#eee),to(#ccc));
+  background-image:linear-gradient(#eee,#ccc);
+  background-color:#ff0000
 }
 .button[data-v-372f748e]:active{
-  background-color:#ccc
+  background-color:#a1a1a1
 }
 .button-image[data-v-372f748e]{
   width:100%;height:100%
