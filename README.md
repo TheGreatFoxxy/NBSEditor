@@ -8,6 +8,6 @@
 ## Github Pages Deploy: Active
 IF NOT WORKING PLEASE GO TO https://garbomuffin.github.io/nbsplayer/ TO USE A WORKING VERSION OF THIS APP
 
-### Heroku app delpoy: Success/Active
+### Heroku app delpoy: Success (Code Deployed)/Inactive Deployment
 https://nbseditor.herokuapp.com/
 IF NOT WORKING, USE GITHUB PAGES DELPLOYMENT. https://thegreatfoxxy.github.io/NBSEditor
