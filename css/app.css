@@ -297,6 +297,7 @@ p[data-v-f4849b4a]{
   position:relative
 }
 .keyboard[data-v-61f4b92c]{
+  background-color:#999;
   position:relative;
   -webkit-box-pack:center;
   -ms-flex-pack:center;
@@ -379,6 +380,5 @@ a:hover{
   flex:1
 }
 #keyboard{
-  background-color:#999;
   height:130px
 }
