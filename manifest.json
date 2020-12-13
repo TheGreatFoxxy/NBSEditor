@@ -5,9 +5,9 @@
   "default_locale": "en",
   "description": "It's a Note Block Studio that runs in your browser.",
   "icons": {
-    "16": /favicon.ico
+    "16": "./img/favicon.ico"
   },
-  "author": TheGreatFoxxy,
+  "author": "TheGreatFoxxy",
   "background": {
     "persistent": false,
   },
