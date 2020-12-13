@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "NBSEditor",
+  "version": "v1.4.0",
+  "default_locale": "en",
+  "description": "It's a Note Block Studio that runs in your browser.",
+  "icons": {
+    "16": /favicon.ico
+  },
+  "author": TheGreatFoxxy,
+  "background": {
+    "persistent": false,
+  },
+  "homepage_url": "http://thegreatfoxxy.github.io",
+  "offline_enabled": true,
+}
