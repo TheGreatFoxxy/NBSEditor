@@ -339,10 +339,7 @@
       new h("Didgeridoo",12,i("e92b"),i("2ed3")),
       new h("Bit",13,i("c34a"),i("6f5e")),
       new h("Banjo",14,i("b6b8"),i("284a")),
-      new h("Pling",15,i("0442"),i("2f7d")),
-      new h("[NOT VANILLA] Firework Blast",16,i("1553"),i("3g8e")),
-      new h("[NOT VANILLA] Portal",17,i("2664"),i("4h9f")),
-      new h("[NOT VANILLA] XP-Orb",18,i("3775"),i("5i0g"))
+      new h("Pling",15,i("0442"),i("2f7d"))
     ],
       u.fromArrayBuffer=function(t){
       var e=new u,i=new DataView(t),n=0;
