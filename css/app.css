@@ -283,6 +283,9 @@ p[data-v-f4849b4a]{
   border:1px solid #111
 }
 .key.sharp.selected[data-v-e828db60]{
+  background:#ff0000
+}
+.key.sharp.selected.vanilla[data-v-e828db60]{
   background:#0080ff
 }
 .octave[data-v-087acd99]{
