@@ -270,6 +270,9 @@ p[data-v-f4849b4a]{
   border:1px solid #555
 }
 .key.selected[data-v-e828db60]{
+  background:#ff0000
+}
+.key.selected.vanilla[data-v-e828db60]{
   background:#ccc
 }
 .key.sharp[data-v-e828db60]{
