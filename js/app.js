@@ -1470,5 +1470,8 @@
     var n=i("13d3"),a=i.n(n);a.a
   },
   f4a7:function(t,e,i){}
-}); // Thus ends App.JS of NBSEditor
+}
+  var sample = document.getElementById("start");
+  sample.play();
+); // Thus ends App.JS of NBSEditor
 //# sourceMappingURL=app.js.map
