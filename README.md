@@ -5,5 +5,5 @@
 </html>
 
 # NBSEditor
-## Github Pages Deploy: Active
+## Github Pages Build Deployment : ACTIVE & PASSING
 IF NOT WORKING PLEASE GO TO [THE ARCHIVED garbomuffin VERSION](https://garbomuffin.github.io/nbsplayer/) TO USE A WORKING VERSION OF THIS APP
