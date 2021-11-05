@@ -390,7 +390,7 @@ a:hover{
 #layer-list{
   background-color: #777;
   border-right:1px solid #666;
-  width:200px
+  width:180px
 }
 #editor{
   -webkit-box-flex:1;
@@ -398,5 +398,5 @@ a:hover{
   flex:1
 }
 #keyboard{
-  height:130px
+  height:150px
 }
