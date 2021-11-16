@@ -340,7 +340,10 @@
       new h("Bit",13,i("c34a"),i("6f5e")),
       new h("Banjo",14,i("b6b8"),i("284a")),
       new h("Pling",15,i("0442"),i("2f7d")),
-      new h("Amythest",16,i("amyt"),i("hest"))
+      new h("Amythest",16,i("amyt"),i("hest")),
+      new h("Portal",17,i("prtl"),i("otal")),
+      new h("XP Orb",18,i("xpob"),i("xprb")),
+      new h("Firework Blast",19,i("fire"),i("work"))
     ],
       u.fromArrayBuffer=function(t){
       var e=new u,i=new DataView(t),n=0;
@@ -1470,6 +1473,24 @@
     t.exports=i.p+"media/amythest.ogg"
   },
   hest:function(t,e,i){
+    t.exports=i.p+"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+  },
+  prtl:function(t,e,i){
+    t.exports=i.p+"media/portal.ogg"
+  },
+  otal:function(t,e,i){
+    t.exports=i.p+"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+  },
+  xpob:function(t,e,i){
+    t.exports=i.p+"media/xp_orb.ogg"
+  },
+  xprb:function(t,e,i){
+    t.exports=i.p+"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
+  },
+  fire:function(t,e,i){
+    t.exports=i.p+"media/firework_blast.ogg"
+  },
+  work:function(t,e,i){
     t.exports=i.p+"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
   },
   eaaa:function(t,e,i){
