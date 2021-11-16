@@ -339,7 +339,8 @@
       new h("Didgeridoo",12,i("e92b"),i("2ed3")),
       new h("Bit",13,i("c34a"),i("6f5e")),
       new h("Banjo",14,i("b6b8"),i("284a")),
-      new h("Pling",15,i("0442"),i("2f7d"))
+      new h("Pling",15,i("0442"),i("2f7d")),
+      new h("Amythest",16,i("amyt"),i("hest"))
     ],
       u.fromArrayBuffer=function(t){
       var e=new u,i=new DataView(t),n=0;
@@ -1464,6 +1465,12 @@
   e891:function(t,e,i){},
   e92b:function(t,e,i){
     t.exports=i.p+"media/didgeridoo.2d131d3e.ogg"
+  },
+  amyt:function(t,e,i){
+    t.exports=i.p+"media/amythest.ogg"
+  },
+  hest:function(t,e,i){
+    t.exports=i.p+"data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D"
   },
   eaaa:function(t,e,i){
     "use strict";
