@@ -434,7 +434,7 @@ a:hover{
 #layer-list{
   background-color: #777;
   border-right:1px solid #666;
-  width:250px
+  width:200px
 }
 #editor{
   -webkit-box-flex:1;
